@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive navbar</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <img src="./img/logo.png" alt="logo" />
+        <a href="#" class="header__logo">Company</a>
+      </div>
+
+      <nav class="nav" id="nav-menu">
+        <ion-icon
+          name="close-circle-outline"
+          class="header__close"
+          id="close-menu"
+        ></ion-icon>
+
+        <ul class="nav__list">
+          <li class="nav__item"><a href="" class="nav__link">Home</a></li>
+          <li class="nav__item"><a href="" class="nav__link">About</a></li>
+          <li class="nav__item"><a href="" class="nav__link">Customers</a></li>
+          <li class="nav__item"><a href="" class="nav__link">Partners</a></li>
+          <li class="nav__item"><a href="" class="nav__link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <ion-icon
+        name="menu-outline"
+        class="header__toggle"
+        id="toggle-menu"
+      ></ion-icon>
+    </header>
+
+    <script src="main.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
